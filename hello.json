@@ -1,37 +1,50 @@
-{
-"data": [
-    [
-        {
-            "name": "ABC",
-            "age": 12,
-            "class": 5,
-            "marks": 50
-        },
-        {
-            "name": "DEF",
-            "age": 13,
-            "class": 6,
-            "marks": 60
-        },
-        {
-            "name": "GHI",
-            "age": 14,
-            "class": 7,
-            "marks": 60
-        },
-        {
-            "name": "ASD",
-            "age": 13,
-            "class": 6,
-            "marks": 65
-        },
-        {
-            "name": "WER",
-            "age": 14,
-            "class": 7,
-            "marks": 70
-        }
-    ]
-    
+[
+    {
+        "name": "ABC",
+        "age": "12",
+        "class": "4",
+        "marks": "85"
+    },
+    {
+        "name": "BTR",
+        "age": "12",
+        "class": "3",
+        "marks": "44"
+    },
+    {
+        "name": "GHJ",
+        "age": "14",
+        "class": "6",
+        "marks": "65"
+    },
+    {
+        "name": "TYU",
+        "age": "12",
+        "class": "4",
+        "marks": "45"
+    },
+    {
+        "name": "QWE",
+        "age": "15",
+        "class": "5",
+        "marks": "55"
+    },
+    {
+        "name": "EGF",
+        "age": "12",
+        "class": "5",
+        "marks": "77"
+    },
+    {
+        "name": "BTR",
+        "age": "2",
+        "class": "3",
+        "marks": "44"
+    },
+    {
+        "name": "IOD",
+        "age": "13",
+        "class": "5",
+        "marks": "45"
+    }
 ]
-}
