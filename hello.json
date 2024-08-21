@@ -1,0 +1,37 @@
+{
+"data": [
+    [
+        {
+            "name": "ABC",
+            "age": 12,
+            "class": 5,
+            "marks": 50
+        },
+        {
+            "name": "DEF",
+            "age": 13,
+            "class": 6,
+            "marks": 60
+        },
+        {
+            "name": "GHI",
+            "age": 14,
+            "class": 7,
+            "marks": 60
+        },
+        {
+            "name": "ASD",
+            "age": 13,
+            "class": 6,
+            "marks": 65
+        },
+        {
+            "name": "WER",
+            "age": 14,
+            "class": 7,
+            "marks": 70
+        }
+    ]
+    
+]
+}
