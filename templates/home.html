@@ -4,10 +4,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Grid Page</title>
-    <link rel="stylesheet" href="static/style.css">
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css') }}">
 </head>
 <body>
-    <div class="grid-container">
+    <div class="container">
         <h1>Grid Page</h1>
         <table id="gridTable">
             <thead>
@@ -20,11 +20,22 @@
                 </tr>
             </thead>
             <tbody id="Body">
-                <!-- Rows will be dynamically added here -->
+                {% for item in data %}
+                <tr>
+                    <td contenteditable="true">{{ item.name }}</td>
+                    <td contenteditable="true">{{ item.age }}</td>
+                    <td contenteditable="true">{{ item.class }}</td>
+                    <td contenteditable="true">{{ item.marks }}</td>
+                    <td>
+                        <button onclick="saveRow(this)">Save</button>
+                        <button onclick="deleteRow(this)">Delete</button>
+                    </td>
+                </tr>
+                {% endfor %}
             </tbody>
         </table>
         <button onclick="addRow()">Add Row</button>
     </div>
-    <script src="flask-app/static/script.js"></script>
+    <script src="{{ url_for('static', filename='script.js') }}"></script>
 </body>
 </html>
