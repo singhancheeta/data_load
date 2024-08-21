@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+}
+
+.grid-container {
+    max-width: 800px;
+    margin: 0 auto;
+}
+
+table {
+    width: 100%;
+    align-content: center;
+    border-radius: 2px;
+    margin-bottom: 20px;
+}
+
+th, td {
+    border: 1px solid #080808;
+    border-color: black;
+    border-spacing: 5px;
+    padding: 8px;
+    text-align: center;
+}
+
+th {
+    background-color: #ecc2c2;
+}
+
+button {
+    padding: 10px 20px;
+    margin: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #a7e78a;
+}
