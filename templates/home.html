@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid Page</title>
+    <link rel="stylesheet" href="static/style.css">
+</head>
+<body>
+    <div class="grid-container">
+        <h1>Grid Page</h1>
+        <table id="gridTable">
+            <thead>
+                <tr>
+                    <th>Name</th>
+                    <th>Age</th>
+                    <th>Class</th>
+                    <th>Marks</th>
+                    <th>Actions</th>
+                </tr>
+            </thead>
+            <tbody id="Body">
+                <!-- Rows will be dynamically added here -->
+            </tbody>
+        </table>
+        <button onclick="addRow()">Add Row</button>
+    </div>
+    <script src="flask-app/static/script.js"></script>
+</body>
+</html>
